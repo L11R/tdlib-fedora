@@ -7,7 +7,7 @@ License:        BSL-1.0
 URL:            https://github.com/tdlib/td
 Source0:        https://github.com/tdlib/td/archive/master.zip
 
-BuildRequires:  cmake,gperf,openssl-devel
+BuildRequires:  cmake,gcc,gcc-c++,gperf,openssl-devel
 
 %description
 
