@@ -26,7 +26,7 @@ cd build
 %make_install
 
 %files
-%{_includedir}/%{name}
+%{_includedir}/td
 %exclude /usr/lib/cmake/Td
 %exclude /usr/lib/debug/usr/lib/libtdclient.so-master-1.fc28.x86_64.debug
 %exclude /usr/lib/debug/usr/lib/libtdjson.so-master-1.fc28.x86_64.debug
