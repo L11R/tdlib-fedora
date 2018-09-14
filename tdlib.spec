@@ -7,7 +7,7 @@ License:        BSL-1.0
 URL:            https://github.com/tdlib/td
 Source0:        https://github.com/tdlib/td/archive/%{version}.zip
 
-BuildRequires:  unzip,gcc,gcc-c++,cmake,cmake3,gperf,openssl-devel
+BuildRequires:  gcc,gcc-c++,cmake,gperf,openssl-devel
 
 %description
 
@@ -42,9 +42,6 @@ cd build
 /usr/lib/libtdutils.a
 
 %changelog
-* Fri Sep 15 2018 L11R <savely@krasovsky.me>
-- OpenSUSE fix
-- CentOS7 / RHEL7 fix
 * Fri Sep 14 2018 L11R <savely@krasovsky.me>
 - Initial release
 - Minor fixes
