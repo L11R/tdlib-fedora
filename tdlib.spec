@@ -1,18 +1,18 @@
-Name:           td
+Name:           tdlib
 Version:        master
 Release:        1%{?dist}
 Summary:        Cross-platform library for building Telegram clients
 
 License:        BSL-1.0
 URL:            https://github.com/tdlib/td
-Source0:        https://github.com/tdlib/td/archive/master.zip
+Source0:        https://github.com/tdlib/td/archive/%{version}.zip
 
-BuildRequires:  cmake,gcc,gcc-c++,gperf,openssl-devel
+BuildRequires:  cmake,gperf,openssl-devel
 
 %description
 
 %prep
-%autosetup
+%setup -n td-%{version}
 
 %build
 mkdir build
@@ -44,3 +44,4 @@ cd build
 %changelog
 * Fri Sep 14 2018 L11R <savely@krasovsky.me>
 - Initial release
+- Minor fixes
