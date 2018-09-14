@@ -7,7 +7,7 @@ License:        BSL-1.0
 URL:            https://github.com/tdlib/td
 Source0:        https://github.com/tdlib/td/archive/%{version}.zip
 
-BuildRequires:  gcc,gcc-c++,cmake,gperf,openssl-devel
+BuildRequires:  unzip,gcc,gcc-c++,cmake,gperf,openssl-devel
 
 %description
 
@@ -45,3 +45,5 @@ cd build
 * Fri Sep 14 2018 L11R <savely@krasovsky.me>
 - Initial release
 - Minor fixes
+* Fri Sep 15 2018 L11R <savely@krasovsky.me>
+- OpenSUSE fix
