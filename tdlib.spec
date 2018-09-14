@@ -42,9 +42,9 @@ cd build
 /usr/lib/libtdutils.a
 
 %changelog
-* Fri Sep 14 2018 L11R <savely@krasovsky.me>
-- Initial release
-- Minor fixes
 * Fri Sep 15 2018 L11R <savely@krasovsky.me>
 - OpenSUSE fix
 - CentOS7 / RHEL7 fix
+* Fri Sep 14 2018 L11R <savely@krasovsky.me>
+- Initial release
+- Minor fixes
